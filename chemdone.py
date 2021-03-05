@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from os import system
-system("python3 -m pip install --upgrade chempy molmass --user")
+system("python3 -m pip install --upgrade chempy molmass --user -q")
 
 from sys import argv
 from chempy import balance_stoichiometry
