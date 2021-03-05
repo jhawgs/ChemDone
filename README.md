@@ -19,10 +19,12 @@ If you want to be a show off:\
 `$ cp ./chemdone.py /usr/bin/chemdone`\
 `$ chemdone`
 
-If none of these work either you're on Windows or you're including the `$` in the command. Don't do either.
+If none of these work, either you're on Windows, or you're including the `$` in the command. Don't do either.
 
 ## Usage
-ChemDone has several functions. It can
+ChemDone has several functions. It can give molar masses like so:\
+`$ python3 chemdone.py H2O`\
+`18.015287`
 
 ## Disclaimer
 We at ChemDone don't encourage academic dishonesty, so don't use this to do your homework or anything like that. That wouldn't be very nice. Just use it to check your practice work or something like that.
