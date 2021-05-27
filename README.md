@@ -10,14 +10,14 @@ $ cd Desktop
 $ python3 chemdone.py
 ```
 
-If you want to get fancy, you can do this:\
+If you want to get fancy, you can do this:
 ``` bash
 $ cd Desktop
 $ chmod u+x chemdone.py
 $ ./ chemdone.py
 ```
 
-If you want to be a show off: (be careful, you should only do this one if you know what you're doing)\
+If you want to be a show off: (be careful, you should only do this one if you know what you're doing)
 ``` bash
 $ cd Desktop
 $ chmod u+x chemdone.py
