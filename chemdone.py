@@ -1,11 +1,22 @@
 #!/usr/bin/python3
 
-from os import system
-system("python3 -m pip install --upgrade chempy molmass --user -q")
-
-from sys import argv
-from chempy import balance_stoichiometry
-from molmass import Formula
+try:
+    from os import system
+    from sys import argv
+    from chempy import balance_stoichiometry
+    from molmass import Formula
+except Exception as err:
+    print("at least one import failed")
+    print("details: {}".format(str(err)))
+    if int(input("Would you like to try installing dependencies?\n    0. No\n    1. Yes\n")) == 1:
+        system("python3 -m pip install --upgrade chempy molmass --user -q")
+        print("installed dependencies")
+    else:
+        raise err
+    from os import system
+    from sys import argv
+    from chempy import balance_stoichiometry
+    from molmass import Formula
 
 try:
     argv[1]
