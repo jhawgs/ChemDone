@@ -53,4 +53,4 @@ Theoretical Masses:  0.7899158 11.0417527 4.8202354 7.011433
 In this example, the thing in curly brackets off to the side is a set of givens. `"AgNO3" : ".026l2.5m"` says that we have .026 liters (`.026l`) of 2.5 M (`2.5m`) solution of Silver Nitrate (`"AgNO3"`). `"Mg" : 1.53` says that we have 1.53 grams (`1.53`) of Magnesium `Mg`. You can also specify mole amounts. If you, instead, wanted to say that there are 1.53 moles of magnesium, you would replace the `1.53` with `"1.53m"`.
 
 ## Disclaimer
-We at ChemDone don't encourage academic dishonesty, so don't use this to do your homework or anything like that. That wouldn't be very nice. Just use it to check your practice work or something like that. We have used it in conjunction with a random chemical equation generator to create and check practice problems.
+We at ChemDone don't encourage or condone academic dishonesty, so don't use this to do your homework or anything like that. That wouldn't be very nice. Just use it to check your practice work or something like that. We have used it in conjunction with a random chemical equation generator to create and check practice problems.
